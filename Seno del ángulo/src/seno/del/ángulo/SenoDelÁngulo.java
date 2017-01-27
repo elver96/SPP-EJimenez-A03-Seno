@@ -22,7 +22,7 @@ public class SenoDelÁngulo {
         // Dar a conocer el ángulo 
         System.out.println("introduce el ángulo");
         a= kb.nextDouble();
-        a= Math.toRadians(a);
+        a= Math.toRadians(a); //Función utilizada para cambiar a radianes
         System.out.println("El seno del ángulo que buscas es" + Math.sin(a));
         System.out.println("Utiliza bien el resultado");
     }
